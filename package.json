@@ -3,14 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@types/node": "^18.16.12",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "datocms-plugin-sdk": "^0.7.13",
     "datocms-react-ui": "^0.7.13",
+    "final-form-arrays": "^3.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-final-form": "^6.5.9",
+    "react-final-form-arrays": "^3.1.4",
     "react-scripts": "5.0.1",
+    "react-select": "^5.7.3",
     "typescript": "^4.9.5"
   },
   "scripts": {
@@ -41,9 +47,17 @@
     "cross-env": "^7.0.3"
   },
   "datoCmsPlugin": {
-    "title": "",
-    "previewImage": "",
-    "coverImage": "",
-    "entryPoint": "build/index.html"
+    "entryPoint": "build/index.html",
+    "title": "Sanitize Richtext",
+    "previewImage": "docs/preview.gif",
+    "coverImage": "docs/cover.png",
+    "pluginType": "field_addon",
+    "fieldTypes": [
+      "text"
+    ],
+    "parameters": {
+      "global": [],
+      "instance": []
+    }
   }
 }
