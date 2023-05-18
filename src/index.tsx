@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { connect, RenderFieldExtensionCtx, } from 'datocms-plugin-sdk';
+import { connect } from 'datocms-plugin-sdk';
 import ConfigScreen from './entrypoints/ConfigScreen';
 import FieldExtension from './entrypoints/FieldExtension';
 import { PluginAttributes } from 'datocms-plugin-sdk/dist/types/SiteApiSchema';
