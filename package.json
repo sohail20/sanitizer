@@ -1,7 +1,15 @@
 {
-  "name": "rich-text-sanitizer",
+  "name": "datocms-plugin-akdn-text-sanitizer",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://github.com/mark/foobar#readme",
+  "description": "AKDN private plugin to remove styles copied from MS Word and others",
+  "keywords": [
+    "datocms-plugin"
+  ],
+  "files": [
+    "docs",
+    "build"
+  ],
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -9,6 +17,7 @@
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "datocms-plugin-sdk": "^0.7.13",
+    "datocms-plugins-sdk": "^0.1.2",
     "datocms-react-ui": "^0.7.13",
     "final-form-arrays": "^3.1.0",
     "react": "^18.2.0",
@@ -48,16 +57,9 @@
   },
   "datoCmsPlugin": {
     "entryPoint": "build/index.html",
-    "title": "Sanitize Richtext",
+    "title": "AKDN Text Sanitizer",
     "previewImage": "docs/preview.gif",
     "coverImage": "docs/cover.png",
-    "pluginType": "field_addon",
-    "fieldTypes": [
-      "text"
-    ],
-    "parameters": {
-      "global": [],
-      "instance": []
-    }
+    "pluginType": "field_addon"
   }
 }
