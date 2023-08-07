@@ -77,7 +77,7 @@ export default function ConfigScreen({ ctx }: Props) {
           return errors;
         }}
         onSubmit={async (values) => {
-          console.log("values123456", values)
+          console.log("values123456789", values)
           await ctx.updatePluginParameters(values);
           ctx.notice('Settings updated successfully!');
         }}
